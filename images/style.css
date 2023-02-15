@@ -64,3 +64,10 @@ nav li {
     margin: 30px 0 40px 0;
     border: none;
 }
+
+/* footer style */
+.footer-style {
+    background-color: #b8a893;
+    text-align: center;
+    padding: 20px;
+}
