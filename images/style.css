@@ -173,6 +173,7 @@ nav li {
 
 .btn-style {
     background-color: orange;
+    border: none;
     border-radius: 5px;
     padding: 20px 30px;
     margin: -50px;
@@ -339,13 +340,13 @@ span {
         width: 400px;
     }
 
-    .architect-img img {
-        width: 300px;
+    .architect-img {
+        margin: 0px 50px;
     }
 
-    .review {
-        background-color: #f58505;
-        flex-direction: column;
+    .architect-img img {
+        width: 300px;
+        height: 300px;
     }
 
     .section-sponsor {
@@ -354,8 +355,20 @@ span {
         row-gap: 50px;
     }
 
-}
+    .feature-section {
+        width: 100%;
+    }
 
-.hide {
-    display: none;
+    .btn-style {
+        margin: 0 0;
+    }
+
+    .review {
+        flex-direction: column;
+        row-gap: 10px;
+    }
+
+    .award {
+        width: 100%;
+    }
 }
