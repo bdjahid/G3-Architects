@@ -9,7 +9,6 @@
 }
 
 body {
-    border: 2px solid red;
     background-color: hsl(36, 33%, 97%);
     display: flex;
     flex-direction: column;
@@ -102,8 +101,9 @@ nav li {
 }
 
 .banner-btn {
+    color: white;
     font-size: bold;
-    background-color: rgb(226, 131, 6);
+    background-color: rgb(247, 199, 125);
     font-weight: 20px;
     padding: 10px 20px;
     border-radius: 5px;
