@@ -310,3 +310,52 @@ span {
     text-align: center;
     padding: 20px;
 }
+
+@media screen and (max-width: 576px) {
+
+    nav,
+    .section-title,
+    .features,
+    .section-bonus {
+        flex-direction: column;
+    }
+
+    .section-image {
+        grid-template-columns: 1fr;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 20px;
+        align-items: flex-start;
+        padding-left: 20px;
+    }
+
+    nav li {
+        margin-left: 0;
+    }
+
+    .banner-img img {
+        width: 400px;
+    }
+
+    .architect-img img {
+        width: 300px;
+    }
+
+    .review {
+        background-color: #f58505;
+        flex-direction: column;
+    }
+
+    .section-sponsor {
+        flex-direction: column;
+        text-align: center;
+        row-gap: 50px;
+    }
+
+}
+
+.hide {
+    display: none;
+}
