@@ -4,20 +4,23 @@
 * {
     box-sizing: border-box;
     font-family: 'Work Sans', sans-serif;
-    ;
     margin: 0;
     padding: 0;
 }
 
 body {
-    background-color: #ddc6ad;
+    border: 2px solid red;
+    background-color: #e8e7e5;
+    display: flex;
+    flex-direction: column;
+
 }
 
 /* header navigation style */
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px;
+    margin: 50px 50px;
 }
 
 .nav-title {
@@ -46,13 +49,13 @@ nav li {
 
 .banner-title {
     font-weight: bold;
-    font-size: 64px;
+    font-size: 50px;
     margin-bottom: 20px;
 }
 
 .banner-description {
     font-weight: bold;
-    font-size: 16px;
+    font-size: 15px;
 }
 
 .banner-btn {
@@ -63,6 +66,109 @@ nav li {
     border-radius: 5px;
     margin: 30px 0 40px 0;
     border: none;
+}
+
+.banner-img img {
+    width: 1240px;
+}
+
+/* section features */
+.features {
+    display: flex;
+    margin: 0px 50px;
+}
+
+.architect-img {
+    width: 50%;
+    margin-left: 100px;
+}
+
+.architect-img img {
+    height: 800px;
+
+}
+
+.feature {
+    border-left: 3px solid orange;
+    margin-top: 50px;
+}
+
+.feature-section {
+    width: 50%;
+}
+
+.feature-title {
+    margin-left: 50px;
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.features-des {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 20px 0 50px 25px;
+}
+
+.versions {
+    margin-left: 10px;
+}
+
+.version {
+    margin: 50px;
+}
+
+.version-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.version-dec {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* section Rating */
+.container {
+    margin-left: 50px;
+}
+
+.container-title {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.review {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 0px 100px 0px;
+}
+
+.award {
+    border: 2px solid rgb(186, 151, 86);
+    border-radius: 5px;
+    width: 10%;
+    height: 150px;
+}
+
+.award-img {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.award-img img {
+    width: 30px;
+}
+
+.award-win {
+    text-align: center;
+    font-size: 40px;
+}
+
+.awards {
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
 }
 
 /* footer style */
