@@ -190,6 +190,37 @@ span {
     text-align: center;
 }
 
+/* bonus section */
+.section-bonus {
+    display: flex;
+    margin: 50px;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 100px;
+}
+
+.bonus-title {
+    width: 50%;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.bonus-title h2 {
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.bonus-img {
+    width: 50%;
+}
+
+.bonus-img img {
+    width: 100%;
+    border-radius: 5px;
+}
+
 /* section Rating */
 .section-container {
     margin-top: 150px;
@@ -202,6 +233,7 @@ span {
 .container-title {
     font-size: 45px;
     font-weight: bold;
+    margin-bottom: 20px;
 }
 
 .review {
